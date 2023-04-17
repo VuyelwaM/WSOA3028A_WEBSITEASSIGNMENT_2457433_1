@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essay Page</title>
+    <link rel ="stylesheet" href="essay.css">
+</head>
+<body>
+    <div class ="container"></div>
+
+    <img src="Media/588a64f5d06f6719692a2d13.png" id="menuIcon">
+
+    <div class="menu-box" id="menuBox">
+        <ul>
+            <li><a href="index.html">HomePage</a></li>
+            <li><a href="about.html">Blogs</a></li>
+            <li><a href="design.html">Design</a></li>
+            <li><a href="essay.html">Essay</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+        </ul>
+
+
+    </div>
+
+    <script>
+        let menuBox = document.getElementById("menuBox");
+        let menuIcon = document.getElementById("menuIcon");
+
+        menuIcon.onclick = function(){
+            menuBox.classList.toggle("open-menu");
+            
+
+        }
+
+
+
+    </script>
+
+</body>
+</html>

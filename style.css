@@ -1,0 +1,54 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url(/Media/oriento-dPUWgZLsOk8-unsplash.jpg) no-repeat ;
+    background-size: cover;
+    height: 100vh;
+}
+
+nav{
+   
+    height: 80px;
+    width: 100px;
+}
+
+
+.logo{
+color: white; 
+font-size: 50px;
+font-weight: bold;
+line-height: 50px;
+margin: 0 50px;
+padding: 40px;
+}
+
+nav ul {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+nav ul li{
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+nav ul li a{
+    font-size: 25px;
+    color: snow;
+    text-decoration: none;
+
+}
+
+a.active{
+    background: rgb(214, 174, 214);
+    color: whitesmoke;
+    padding: 10px 30px;
+    border-radius: 50px;
+
+}
+
+
+
+
